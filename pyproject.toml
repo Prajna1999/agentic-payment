@@ -5,9 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "eth-account>=0.13.7",
     "fastapi>=0.139.2",
     "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
     "sqlmodel>=0.0.39",
     "uvicorn>=0.51.0",
-    "x402[evm,fastapi,svm]>=2.16.0",
+    "x402[evm,fastapi,httpx,svm,tvm]>=2.16.0",
 ]
