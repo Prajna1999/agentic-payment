@@ -1,0 +1,13 @@
+[project]
+name = "agentic-payment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.139.2",
+    "pydantic>=2.13.4",
+    "sqlmodel>=0.0.39",
+    "uvicorn>=0.51.0",
+    "x402[evm,fastapi,svm]>=2.16.0",
+]
